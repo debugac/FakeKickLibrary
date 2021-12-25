@@ -171,4 +171,9 @@ messagebox(msg, "Roblox Crash", 0)
 return Message
 end
 
+function Message:RickRoll()
+game.GuiService:OpenBrowserWindow([[https://streamable.com\noru94#$www.roblox.com]])
+return Message
+end
+
 return Message
