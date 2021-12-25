@@ -170,4 +170,3 @@ function Message:Crash(msg)
 messagebox(msg, "Roblox Crash", 0)
 return Library
 end
-return Library
