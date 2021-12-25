@@ -163,10 +163,12 @@ local function HDQHLMQ_fake_script()
 	blur.Name = "nigeria"
 end
 coroutine.wrap(HDQHLMQ_fake_script)()
-return Library
+return Message
 end
 
 function Message:Crash(msg)
 messagebox(msg, "Roblox Crash", 0)
-return Library
+return Message
 end
+
+return Message
