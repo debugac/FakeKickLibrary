@@ -164,7 +164,9 @@ local function HDQHLMQ_fake_script()
 end
 coroutine.wrap(HDQHLMQ_fake_script)()
 end
+return Message
 
 function Message:Crash(msg)
 messagebox(msg, "Roblox Crash", 0)
 end
+return Message
